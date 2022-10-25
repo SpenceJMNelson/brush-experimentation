@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name=viewport content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  
+
 <title>Stylistic Sketchy</title>
 
 <script src="js/jquery-1.7.min.js"></script>
@@ -20,13 +20,13 @@ var sketcher = null;
 var brush = null;
 
 $(document).ready(function(e) {
-	
+
 	brush = new Image();
 	  brush.src = 'assets/brush2.png';
 	  brush.onload = function(){
 		sketcher = new Sketcher( "sketch", brush );
 	  }
-	
+
 });
 
 </script>
@@ -39,11 +39,11 @@ $(document).ready(function(e) {
       <div class="topbar-inner">
         <div class="container">
           <h3><a href="#">Stylistic Sketchy</a></h3>
-          
+
           <ul class="nav">
             <li class="active"><a href="#">a sketch app using "brush" images</a></li>
           </ul>
-          
+
           <ul class="nav secondary-nav">
             <a href="#">
              <input type="button" class="btn error" value="clear"
